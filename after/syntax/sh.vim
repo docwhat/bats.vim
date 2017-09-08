@@ -6,6 +6,8 @@
 
 syn match batsTest              "\v\@test"
 syn keyword batsKeyword         run containedin=shExpr contained
+syn keyword batsKeyword         skip containedin=shExpr contained
+syn keyword batsKeyword         load
 
 hi def link batsTest            Identifier
 hi def link batsKeyword         Keyword
